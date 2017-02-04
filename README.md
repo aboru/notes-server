@@ -20,9 +20,9 @@ On a Windows system, use the following command from the project root.
 
 #### How To Stop
 
-Make a POST to `localhost:8080/shutdown`
+Make a POST to `localhost:8080/api/shutdown`
 
-> $ curl -X POST localhost:8080/shutdown
+> $ curl -X POST localhost:8080/api/shutdown
 
 ** Killing the Gradle process using ctrl+c will stop the application context; 
 however, in some environments this will not stop the Jetty server which would 
